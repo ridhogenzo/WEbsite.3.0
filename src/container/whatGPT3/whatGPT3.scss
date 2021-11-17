@@ -112,6 +112,9 @@
 }
 
 @media screen and (max-width: 850px) {
+  .gpt3__whatgpt3 {
+    margin: 0;
+  }
   .gpt3__whatgpt3-heading {
     flex-direction: column;
     align-items: flex-start;
@@ -133,7 +136,9 @@
   .gpt3__whatgpt3-feature .gpt3__features-container_feature-text {
     margin-top: 0.5rem;
   }
-
+  .gpt3__whatgpt3 {
+    margin: 0;
+  }
   .gpt3__whatgpt3-heading h1 {
     font-size: 28px;
     line-height: 40px;

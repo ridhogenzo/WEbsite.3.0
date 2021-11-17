@@ -1,6 +1,6 @@
 import React from "react";
 import "./possibility.scss";
-import FeatureImage from "../../assets/images/Feature Image.png";
+import FeatureImage from "../../assets/images/possibility.png";
 
 const Possibility = () => {
   return (

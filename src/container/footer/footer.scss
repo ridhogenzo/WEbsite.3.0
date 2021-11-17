@@ -1,0 +1,133 @@
+.gpt3_footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-footer);
+
+  .footer_heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+
+    h1 {
+      font-family: var(--font-family);
+      font-weight: 800;
+      font-size: 62px;
+      line-height: 75px;
+      text-align: center;
+      letter-spacing: -0.04em;
+    }
+  }
+  .footer_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #ffffff;
+    text-align: center;
+    margin-bottom: 10rem;
+    cursor: pointer;
+
+    p {
+      box-sizing: border-box;
+      font-size: 18px;
+      line-height: 21px;
+      color: #ffffff;
+      font: var(--font-family);
+      word-spacing: 2px;
+    }
+  }
+  .footer_links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    div {
+      width: 250px;
+      margin: 1rem;
+    }
+    .footer_logo {
+      display: flex;
+      flex-direction: column;
+      img {
+        width: 118px;
+        height: 30px;
+        margin-bottom: 1rem;
+      }
+      p {
+        font-size: 12px;
+        line-height: 14px;
+        color: #ffffff;
+        font-family: var(--font-family);
+      }
+    }
+
+    .footer_content {
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      h4 {
+        font-size: 14px;
+        line-height: 16px;
+        font-family: var(--font-family);
+        color: #ffffff;
+        margin-bottom: 1rem;
+      }
+      p {
+        font-size: 12px;
+        line-height: 20px;
+        color: #ffffff;
+        font-size: var(--font-family);
+        margin: 0.5rem 0;
+        cursor: pointer;
+      }
+    }
+  }
+  .footer_copyrights {
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+    p {
+      color: #ffffff;
+      font-size: 12px;
+      line-height: 14px;
+      font-family: var(--font-family);
+    }
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .gpt3_footer {
+    .footer_heading h1 {
+      font-size: 44px;
+      line-height: 55px;
+    }
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .gpt3_footer {
+    .footer_heading h1 {
+      font-size: 34px;
+      line-height: 42px;
+    }
+    .footer_links div {
+      margin: 1rem 0;
+    }
+    .footer_button p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .gpt3_footer {
+    .footer_heading h1 {
+      font-size: 27px;
+      line-height: 38px;
+    }
+  }
+}
